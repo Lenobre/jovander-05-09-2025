@@ -136,3 +136,5 @@ docker volume rm mysql-data
 - **Contêiner Para Imediatamente**: Verifique os logs com `docker logs meu-contêiner-web` para garantir que o `start.sh` está iniciando os serviços corretamente.
 - **Problemas com MySQL**: Certifique-se de que o `init.sql` é válido e não causa erros durante a inicialização do banco de dados.
 - **Conflitos de Porta**: Se a porta 8080 estiver em uso, escolha uma porta diferente no host (por exemplo, `-p 8081:80`).
+
+Link dockerhub: https://hub.docker.com/repository/docker/lecndu/leandro/tags/latest/sha256-8e0251d66072fce455b007867f9feeef2c9ddcf0630175d591f65ec4ff4df8ec
